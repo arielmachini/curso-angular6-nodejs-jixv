@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Item } from '../../../_modelo/item';
+import { Item } from '../_modelo/item';
 import { Observable } from "rxjs";
 
 @Injectable({
@@ -11,5 +11,5 @@ export abstract class AbstractItemsService {
 
   abstract getItems():Observable<Item[]>;
 
-  abstract remove():Observable<Item[]>;
+  abstract remove(item: Item):Observable<Item[]>;
 }

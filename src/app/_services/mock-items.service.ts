@@ -1,6 +1,6 @@
 import { AbstractItemsService } from './abstract-items.service';
 import { Injectable } from '@angular/core';
-import { Item } from '../../../_modelo/item';
+import { Item } from '../_modelo/item';
 import { Observable } from 'rxjs';
 
 @Injectable({

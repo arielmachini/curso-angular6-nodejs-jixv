@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
-import { Item } from '../../../_modelo/item';
+import { Item } from '../_modelo/item';
 import { MockItemsService } from '../_services/mock-items.service';
 import { Router } from '@angular/router';
 
